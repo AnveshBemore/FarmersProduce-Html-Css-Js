@@ -5,13 +5,13 @@
   height: 40px;
 }
 .search_bar {
-  margin-left: 965px;
+  margin-left: 900px;
   width: 250px;
   height: 30px;
 }
 .search_icon {
-  width: 30px;
-  height: 20px;
+  width: 40px;
+  height: 30px;
 }
 .returns {
   display: inline-block;
@@ -32,23 +32,26 @@ span {
   display: inline-block;
 }
 .vegetables {
-  border: 2px solid black;
-  margin: 30px 90px 90px 90px;
+  display: block;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  /* border: 2px solid black; */
+  margin: 30px 90px 100px 90px;
 }
 img {
+  /* box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); */
   width: 300px;
   height: 300px;
-  margin: 10px 10px 20px 10px;
-}
-.potato .title_pota {
-  text-align: center;
-}
-.potato .price_potato {
-  text-align: center;
-}
-.star {
-  text-align: center;
+  margin: 10px 10px 10px 10px;
 }
 .veg_info {
+  /* box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); */
   text-align: center;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.basket_items {
+  font-size: 20px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  margin: 30px 40px 100px 40px;
+  visibility: hidden;
 }
